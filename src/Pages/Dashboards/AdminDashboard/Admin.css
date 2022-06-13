@@ -1,0 +1,26 @@
+.docBtn {
+    border: 1px solid #16BABF;
+    text-transform: capitalize;
+    background-color: white;
+    color: #0da3a9;
+    padding: 10px 25px 10px 25px;
+    font-weight: 500;
+    margin-top: 1rem;
+
+}
+
+.docBtn:hover {
+    background-color: #16BABF;
+    color: white;
+    border-radius: 25px;
+}
+
+.docDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4rem;
+    justify-content: space-around;
+    align-items: center;
+
+
+}

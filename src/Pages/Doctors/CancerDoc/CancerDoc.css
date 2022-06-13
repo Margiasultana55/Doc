@@ -1,0 +1,72 @@
+.contenntt-pack{
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 2rem;
+   
+   
+    
+    justify-content: space-between;
+   
+
+}
+.cont{
+display: flex;
+align-content: space-between;
+padding-top: .6rem;
+justify-content: space-between;
+align-items: flex-start;
+}
+.boxx:hover .cont{
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.boxx:hover .contenntt-pack{
+    bottom: 0;
+    transition: bottom 1s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxx:hover .contenntt-pack p{
+  font-size: 1.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.cont p{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.contenntt-pack button{
+   align-items: flex-end;
+    
+}
+.cont h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.book-btn{
+color: white;
+background: none;
+border: 2px solid white;
+}
+.book-btn:hover{
+    background-color: white;
+    color:rgb(10, 155, 212) ;
+    font-weight: bold;
+    border-radius: 20px;
+}

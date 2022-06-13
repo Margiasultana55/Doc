@@ -1,0 +1,106 @@
+.headd {
+    padding: 2.3rem 0;
+}
+
+.headd span {
+    background-color: rgba(8, 8, 8, 0.904);
+    margin: .2rem .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 6px;
+}
+
+.boxx-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.4rem;
+}
+
+.boxx {
+    height: 24rem;
+    overflow: hidden;
+    position: relative;
+    flex: 1 1 3rem;
+}
+
+.boxx img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenntt {
+    position: absolute;
+    bottom: -75%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 2rem;
+    padding-top: 5rem;
+    padding-top: 1rem;
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+}
+
+.boxx:hover .contenntt {
+    bottom: 0;
+    transition: bottom 1s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxx:hover .contenntt p {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.contenntt p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width:688px) {
+    .boxx-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .headd {
+        padding: 3rem 0;
+    }
+
+    .headd span {
+
+        margin: .1rem .1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .boxx-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .headd {
+        padding: 3rem 0;
+    }
+
+    .headd span {
+
+        margin: .1rem .3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 20px;
+    }
+}

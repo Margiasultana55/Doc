@@ -1,0 +1,12 @@
+.login-btn{
+    border: 1px solid black;
+    color: black;
+    width: 30%;
+
+    margin: 10px;
+}
+.login-btn:hover{
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.945);
+}
